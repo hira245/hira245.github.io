@@ -10,6 +10,9 @@ body {
 	padding: 0;
 	background: url(../img/galaxy.jpg) 0/cover ;
 }
+h1 ,p ,legend,label{
+	font-family: 'Dancing Script', cursive;
+}
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
