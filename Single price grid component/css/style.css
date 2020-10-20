@@ -69,6 +69,7 @@ section{
 .btn{
     color: #fff;
     border: none;
+    cursor: pointer;
     border-radius: 0.3rem;
     padding: 1rem;
     width: 100%;
@@ -94,6 +95,12 @@ section{
         max-width: 635px;
         display: flex;
         flex-flow: row wrap;
+    }
+    .btn{
+        transition: background-color 0.3s;
+    }
+    .btn:hover{
+        background-color: hsl(31, 73%, 54%);
     }
 
 }
