@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f;
+  max-width: 378px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color: brown;
+}
