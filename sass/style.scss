@@ -31,7 +31,8 @@
     margin: 30px 40px;
     &-image{
         grid-area: image;
-        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 15px 15px 0 0;
         overflow: hidden;
     }
